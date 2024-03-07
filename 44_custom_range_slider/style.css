@@ -28,6 +28,7 @@ h2 {
 input[type='range'] {
     width: 300px;
     margin: 18px 0;
+    appearance: none;
     -webkit-appearance: none;
 }
 
@@ -77,6 +78,7 @@ input[type='range']::-moz-range-track {
 }
 
 input[type='range']::-moz-range-thumb {
+    appearance: none;
     -webkit-appearance: none;
     height: 24px;
     width: 24px;
@@ -97,6 +99,7 @@ input[type='range']::-ms-track {
 }
 
 input[type='range']::-ms-thumb {
+    appearance: none;
     -webkit-appearance: none;
     height: 24px;
     width: 24px;
